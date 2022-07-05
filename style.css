@@ -92,9 +92,11 @@ h1 {
 
 input {
   width: 50%;
+  height: 35px;
   text-align: center;
+  font-size: 16px;
   border-style: none;
-  border-bottom: 1px solid rgb(160, 160, 160);
+  border-bottom: 2px solid rgb(160, 160, 160);
   margin-bottom: 15px;
 }
 
@@ -104,20 +106,19 @@ input {
 }
 
 .donateboxa {
-  background-color: #FFE6E6;
+  background-color: #ffe6e6;
 }
 .donateboxb {
-  background-color: #F2D1D1;
+  background-color: #f2d1d1;
 }
 .donateboxc {
-  background-color: #DAEAF1;
+  background-color: #daeaf1;
 }
-.donateboxd{
-  background-color: #C6DCE4;
+.donateboxd {
+  background-color: #c6dce4;
   margin-left: 200px;
   margin-right: 200px;
 }
-
 
 .donateplan {
   text-align: left;
@@ -131,14 +132,14 @@ input {
   margin-top: 50px;
 }
 
-.mailbox{
+.mailbox {
   width: 25%;
   height: 35px;
 }
 
 .sub-button {
   text-decoration: none;
-  background: #4B5D67;
+  background: #4b5d67;
   padding: 10px 20px;
   border-radius: 0px;
   font-weight: 400;
@@ -152,7 +153,7 @@ input {
   margin-top: 50px;
 }
 
-footer{
+footer {
   background-color: black;
   text-align: center;
   padding-top: 25px;
@@ -160,11 +161,11 @@ footer{
   margin-top: 50px;
 }
 
-.special-h1{
+.special-h1 {
   color: aliceblue;
-font-family: "Lucida Handwriting";
+  font-family: "Lucida Handwriting";
 }
 
-.foot-text{
-  color: #C6DCE4;
+.foot-text {
+  color: #c6dce4;
 }
