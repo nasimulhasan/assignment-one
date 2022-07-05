@@ -75,6 +75,18 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.box-contact {
+  width: 70%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 6px #b1afaf;
+}
+
 .boxbg {
   background-color: rgb(242, 242, 242);
 }
@@ -118,6 +130,12 @@ input {
   background-color: #c6dce4;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.donateboxe {
+  background-color: #C4DFAA;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .donateplan {
@@ -169,3 +187,13 @@ footer {
 .foot-text {
   color: #c6dce4;
 }
+.column {
+  float: left;
+  width: 50%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
