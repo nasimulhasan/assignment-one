@@ -75,6 +75,15 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
 }
+.box-growing {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
 
 .box-contact {
   width: 70%;
@@ -196,4 +205,8 @@ footer {
   content: "";
   display: table;
   clear: both;
+  }
+
+  #findout  {
+    text-decoration: none;
   }
