@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.banner {
+  display: block;
+  background: url(images/donation1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  height: 600px;
+  padding: 10px 2px;
+  text-align: center;
+}
+
+.banner-intro {
+  text-align: center;
+  color: white;
+}
+
+.banner-description {
+  text-align: center;
+  color: white;
+  margin-bottom: 56px;
+}
+
+.donate-button {
+  text-decoration: none;
+  background: #f85a5c;
+  padding: 15px 20px;
+  border-radius: 0px;
+  font-weight: 400;
+  border-radius: 5.5px;
+  color: aliceblue;
+}
+
+.banner-content {
+  margin-top: 250px;
+}
+
+.donate {
+  padding: 20px 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.box-plan {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxbg {
+  background-color: rgb(242, 242, 242);
+}
+
+#borderbox {
+  border: 2px;
+  border-style: solid;
+  color: brown;
+}
+
+.other_amount {
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+
+input {
+  width: 50%;
+  text-align: center;
+  border-style: none;
+  border-bottom: 1px solid rgb(160, 160, 160);
+  margin-bottom: 15px;
+}
+
+.plan {
+  display: flex;
+  width: 100%;
+}
+
+.donateboxa {
+  background-color: #FFE6E6;
+}
+.donateboxb {
+  background-color: #F2D1D1;
+}
+.donateboxc {
+  background-color: #DAEAF1;
+}
+.donateboxd{
+  background-color: #C6DCE4;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.donateplan {
+  text-align: left;
+}
+
+.flex-container-b {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mailbox{
+  width: 25%;
+  height: 35px;
+}
+
+.sub-button {
+  text-decoration: none;
+  background: #4B5D67;
+  padding: 10px 20px;
+  border-radius: 0px;
+  font-weight: 400;
+  border-radius: 5.5px;
+  color: aliceblue;
+}
+
+.subscribe-box {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+
+.special-h1{
+  color: aliceblue;
+font-family: "Lucida Handwriting";
+}
+
+.foot-text{
+  color: #C6DCE4;
+}
