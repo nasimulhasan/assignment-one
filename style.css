@@ -40,6 +40,11 @@ h1 {
   color: aliceblue;
 }
 
+.donate-button:hover {
+  background-color: #377D71;
+  transition: 0.7s;
+}
+
 .banner-content {
   margin-top: 250px;
 }
@@ -57,8 +62,6 @@ h1 {
   justify-content: center;
   margin-top: 50px;
 }
-
-
 
 .box {
   padding-left: 30px;
@@ -87,7 +90,6 @@ h1 {
   margin-right: 10px;
   text-align: center;
 }
-
 
 .box-contact {
   width: 70%;
@@ -147,7 +149,7 @@ input {
 }
 
 .donateboxe {
-  background-color: #C4DFAA;
+  background-color: #c4dfaa;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -179,11 +181,14 @@ input {
   color: aliceblue;
 }
 
+.sub-button:hover {
+  background-color: tomato;
+}
+
 .subscribe-box {
   padding-top: 70px;
   padding-bottom: 50px;
   margin-top: 50px;
-
 }
 
 footer {
@@ -205,14 +210,14 @@ footer {
 .column {
   float: left;
   width: 50%;
-  }
+}
 
-  .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-  }
+}
 
-  #findout  {
-    text-decoration: none;
-  }
+#findout {
+  text-decoration: none;
+}
