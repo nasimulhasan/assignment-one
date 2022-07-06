@@ -41,7 +41,7 @@ h1 {
 }
 
 .donate-button:hover {
-  background-color: #377D71;
+  background-color: #377d71;
   transition: 0.7s;
 }
 
@@ -104,12 +104,13 @@ h1 {
 
 .boxbg {
   background-color: rgb(242, 242, 242);
+  border-radius: 0px 20px 0px 20px;
 }
 
 #borderbox {
   border: 2px;
   border-style: solid;
-  border-radius: 0px 8px 0px 8px;
+  border-radius: 0px 20px 0px 20px;
   color: #f85a5c;
 }
 
@@ -135,17 +136,21 @@ input {
 
 .donateboxa {
   background-color: #ffe6e6;
+  border-radius: 0px 20px 0px 20px;
 }
 .donateboxb {
   background-color: #f2d1d1;
+  border-radius: 0px 20px 0px 20px;
 }
 .donateboxc {
   background-color: #daeaf1;
+  border-radius: 0px 20px 0px 20px;
 }
 .donateboxd {
   background-color: #c6dce4;
   margin-left: 200px;
   margin-right: 200px;
+  border-radius: 40px 0px 40px 0px;
 }
 
 .donateboxe {
@@ -167,19 +172,21 @@ input {
 }
 
 .mailbox {
-  width: 45%;
-  height: 35px;
+  width: 35%;
+  height: 32px;
+  margin-right: -5px;
+  padding: 7px;
 }
 
 .sub-button {
   text-decoration: none;
   background: #4b5d67;
-  padding: 10px 20px;
-  border-radius: 0px;
-  font-weight: 400;
+  padding: 14px 20px;
   border-radius: 5.5px;
   color: aliceblue;
+  border-radius: revert;
 }
+
 
 .sub-button:hover {
   background-color: tomato;
